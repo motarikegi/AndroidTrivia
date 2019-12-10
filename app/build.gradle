@@ -21,6 +21,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 // Adding the apply plugin statement for safeargs
+//安全な引数,あるフラグメントから別のフラグメントにデータを渡す際に、キーの欠落や型の不一致が原因のエラーをキャッチするには、Safe ArgsというGradleプラグインを使用します
 apply plugin: 'androidx.navigation.safeargs'
 
 android {
